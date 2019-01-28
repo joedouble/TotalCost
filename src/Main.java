@@ -10,7 +10,7 @@ public class Main {
         Scanner myScanner = new Scanner(System.in);
 
         System.out.println("What is the price of the item you'd like to buy?");
-        itemPrice = myScanner.nextInt();
+        itemPrice = myScanner.nextDouble();
 
         totalCost = itemPrice + (salesTax * itemPrice);
 
